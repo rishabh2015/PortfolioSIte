@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PortfolioSIte/static/css/main.62ff4b18.chunk.css",
+    "main.js": "/PortfolioSIte/static/js/main.4b588381.chunk.js",
+    "main.js.map": "/PortfolioSIte/static/js/main.4b588381.chunk.js.map",
+    "runtime-main.js": "/PortfolioSIte/static/js/runtime-main.41f4aefd.js",
+    "runtime-main.js.map": "/PortfolioSIte/static/js/runtime-main.41f4aefd.js.map",
+    "static/js/2.cccd56a2.chunk.js": "/PortfolioSIte/static/js/2.cccd56a2.chunk.js",
+    "static/js/2.cccd56a2.chunk.js.map": "/PortfolioSIte/static/js/2.cccd56a2.chunk.js.map",
+    "index.html": "/PortfolioSIte/index.html",
+    "precache-manifest.94ee11c17ae66b3eadc7bb3e6df15987.js": "/PortfolioSIte/precache-manifest.94ee11c17ae66b3eadc7bb3e6df15987.js",
+    "service-worker.js": "/PortfolioSIte/service-worker.js",
+    "static/css/main.62ff4b18.chunk.css.map": "/PortfolioSIte/static/css/main.62ff4b18.chunk.css.map",
+    "static/media/DsAlgo-skill.jpg": "/PortfolioSIte/static/media/DsAlgo-skill.096339a2.jpg",
+    "static/media/main-mob.css": "/PortfolioSIte/static/media/logo-z.b6bdd46c.png",
+    "static/media/project.css": "/PortfolioSIte/static/media/z-back.42993301.jpg",
+    "static/media/contact.css": "/PortfolioSIte/static/media/coffee.cf334e55.jpg",
+    "static/media/floatjs-Logo.png": "/PortfolioSIte/static/media/floatjs-Logo.00c501a0.png",
+    "static/media/java8-skill.png": "/PortfolioSIte/static/media/java8-skill.26c83d8e.png",
+    "static/media/me-car.jpeg": "/PortfolioSIte/static/media/me-car.1cba0044.jpeg",
+    "static/media/mongodb-skill.png": "/PortfolioSIte/static/media/mongodb-skill.e5eee315.png",
+    "static/media/naukri-small.jfif": "/PortfolioSIte/static/media/naukri-small.1f4fdd79.jfif",
+    "static/media/naukriLogo.jpg": "/PortfolioSIte/static/media/naukriLogo.f429cfce.jpg",
+    "static/media/skills.css": "/PortfolioSIte/static/media/redux-skill.82e31c5d.png",
+    "static/media/testSvgreverse.svg": "/PortfolioSIte/static/media/testSvgreverse.98f1ca8b.svg",
+    "static/media/testVector2.svg": "/PortfolioSIte/static/media/testVector2.5ff90501.svg",
+    "static/media/toatImage.jpg": "/PortfolioSIte/static/media/toatImage.40ece16f.jpg",
+    "static/media/yatra-small.jpg": "/PortfolioSIte/static/media/yatra-small.1860e0e0.jpg",
+    "static/media/yatra.jpg": "/PortfolioSIte/static/media/yatra.187ccd24.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41f4aefd.js",
+    "static/js/2.cccd56a2.chunk.js",
+    "static/css/main.62ff4b18.chunk.css",
+    "static/js/main.4b588381.chunk.js"
+  ]
+}
