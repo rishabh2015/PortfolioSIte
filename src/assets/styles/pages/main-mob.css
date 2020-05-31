@@ -1,0 +1,666 @@
+.mobile .side-mob-black,
+.mobile .side-mob-white {
+  height: 120vh;
+  position: fixed;
+}
+
+.mobile {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: mons-lig;
+}
+
+.mobile .side-mob-black {
+  opacity: 0.7;
+}
+
+.mobile .logo img {
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+  margin-left: -31px;
+}
+
+@font-face {
+  font-family: geo;
+  src: url(../fonts/Geometos.ttf);
+}
+
+@font-face {
+  font-family: mons-reg;
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: mons-lig;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  width: 0;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: red;
+}
+
+.mobile .links {
+  z-index: 2;
+}
+
+.mobile .links h4,
+.mobile .side-mob-nav {
+  text-align: left;
+}
+
+.mobile .top {
+  margin: 5px 0 20px;
+}
+
+.mob-about,
+.mob-contact,
+.mob-exp,
+.mob-project,
+.mob-skills {
+  background: #f9f9f9;
+  width: 100vw;
+  min-height: 102vh;
+  left: -102vw;
+  padding-bottom: 20px;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.mob-contact {
+  background: url(../../images/coffee-s.jpg) left center no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
+  min-height: 100vh;
+}
+
+.about-head,
+.contact-head,
+.exp-head,
+.project-head,
+.skills-head {
+  font-family: mons-lig;
+  color: #505050;
+  font-size: 1.2em;
+  padding-top: 15px;
+  position: fixed;
+  background-color: #1B1B1B;
+  width: 100%;
+  height: 55px;
+  box-shadow: 0 0 10px #3E3E3E;
+  z-index: 1;
+}
+
+.exp-text h3,
+.skills-cont h4,
+.zeo-text h3 {
+  font-family: geo;
+}
+
+.mobile .skills-head {
+  background-color: #43A047;
+  color: #154A17;
+}
+
+.mobile .left {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.mobile .project-head {
+  color: #777;
+  box-shadow: 0 0 10px #000;
+}
+
+.mobile .exp-head {
+  background-color: #3C5EC0;
+  color: #fff;
+}
+
+.mobile .contact-head {
+  background: 0 0;
+  box-shadow: 0 0 0 #000;
+  position: absolute;
+  color: #fff;
+}
+
+.mobile .about-head {
+  background-color: #FF9800;
+  color: #9C5D00;
+}
+
+.project-card {
+  overflow: hidden;
+  box-shadow: 1px 1px 1px #C6C6C6;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 90px;
+  background: #2b2b2b;
+}
+
+.exp-card,
+.skills-text {
+  text-align: left;
+  border-radius: 3px;
+}
+
+.mobile .zeo-over-logo,
+.mobile.zeo-text {
+  display: inline-block;
+  float: left;
+}
+
+.mobile .founch,
+.mobile .gmas,
+.mobile .msgup {
+  background-repeat: no-repeat;
+}
+
+.mobile .about-cont,
+.mobile .contact-cont,
+.mobile .exp-cont,
+.mobile .project-cont,
+.mobile .skills-cont {
+  padding: 65px 20px 0;
+}
+
+.mobile .contact-cont {
+  background-color: rgba(14, 20, 21, 0.9);
+  min-height: 100vh;
+}
+
+.mobile .about-cont span,
+.contact-cont span,
+.exp-cont span,
+.project-cont span,
+.skills-cont span {
+  font-size: .9em;
+  color: #9d9d9d;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mobile .founch,
+.mobile .msgup {
+  background-image: url(../../images/founch.png);
+}
+
+.mobile .gmas {
+  background-image: url(../../images/gmas.png);
+}
+
+.zeo-text img {
+  width: 25px;
+}
+
+.mobile .zeo-over-logo {
+  margin-top: 15px;
+  width: 100px;
+  height: 60px;
+  border-right: 1px solid #9d9d9d;
+  padding: 5px 10px;
+}
+
+.mobile .msg-over-logo {
+  padding: 0 10px;
+}
+
+.mobile .gmas-over-logo {
+  padding: 20px 10px;
+}
+
+.mobile .ym-over-logo {
+  padding: 8px 10px;
+}
+
+.mobile .pmc-over-logo {
+  padding-top: 15px;
+}
+
+.mobile .ec-over-logo,
+.mobile .portfolio-over-logo {
+  padding-top: 10px;
+}
+
+.light {
+  background: #252525;
+}
+
+.mobile .zeo-text {
+  width: 60%;
+  height: 70px;
+  color: #D5D5D5;
+  font-size: .9em;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.mobile .zeo-text h3 {
+  margin-bottom: -5px;
+  font-size: 1em;
+  color: #fff;
+}
+
+.mobile .zeo-over-logo img {
+  width: 80%;
+}
+
+.mobile .pmc-over-logo img {
+  width: 100%;
+}
+
+.mobile .portfolio-over-logo img {
+  width: 60%;
+}
+
+.mobile .ec,
+.mobile .founch,
+.mobile .gmas,
+.mobile .msgup,
+.mobile .pmc,
+.mobile .portfolio,
+.mobile .ym,
+.mobile .zeo {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/logo-z.png) right center no-repeat;
+  background-size: 60%;
+  opacity: 0.1;
+}
+
+.mobile .founch {
+  background: url(../../images/logo-f.png) right center no-repeat;
+  background-size: 60%;
+}
+
+.mobile .msgup {
+  background: url(../../images/msgup-logo.png) 100px center no-repeat;
+  background-size: 70%;
+}
+
+.mobile .gmas {
+  background: url(../../images/gmas-logo.png) 80px center no-repeat;
+  background-size: 90%;
+}
+
+.mobile .pmc {
+  background: url(../../images/pmc-logo-small.png) 80px center no-repeat;
+  background-size: 70%;
+}
+
+.mobile .ym {
+  background: url(../../images/logo-ym.png) 80px center no-repeat;
+  background-size: 90%;
+}
+
+.mobile .ec {
+  background: url(../../images/logo-ec-big.png) 80px center no-repeat;
+  background-size: 90%;
+}
+
+.mobile .portfolio {
+  background: url(../../images/logo.png) right center no-repeat;
+  background-size: 40%;
+}
+
+.mobile .zeo-overlay:hover {
+  background-color: rgba(56, 34, 75, 0.9);
+}
+
+.mobile .founch-overlay:hover {
+  background-color: rgba(5, 71, 92, 0.9);
+}
+
+.mobile .msgup-overlay:hover {
+  background-color: rgba(33, 31, 31, 0.9);
+}
+
+.mobile .gmas-overlay:hover {
+  background-color: rgba(13, 93, 73, 0.9);
+}
+
+.mobile .last {
+  margin: 30px 0;
+}
+
+.example,
+.sign,
+p {
+  font-size: 1em;
+  color: #9d9d9d;
+  text-align: left;
+  padding: 20px;
+  display: block;
+}
+
+.light-msg {
+  color: #9d9d9d;
+}
+
+.example {
+  color: #4d4d4d;
+}
+
+#message-box,
+.head {
+  text-align: left;
+  font-size: 2em;
+  margin: 3.2% 3.2% 3.2% 20px;
+}
+
+.head {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: #35709A;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #9d9d9d;
+}
+
+.exp-card {
+  width: 100%;
+  padding: 0 7px;
+  height: 144px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #C3C3C3;
+  margin-bottom: 12px;
+}
+
+.exp-logo {
+  width: 80px;
+  height: 70px;
+  margin-top: 16px;
+  border-right: 1px solid #DCDCDC;
+  position: absolute;
+  padding-top: 4px;
+}
+
+.exp-f {
+  padding-top: 13px;
+  padding-left: 11px;
+}
+
+.exp-logo img {
+  width: 100%;
+}
+
+.exp-pmc img,
+.exp-zeo img {
+  width: 90%;
+}
+
+.exp-f img {
+  width: 70%;
+}
+
+.exp-ub img {
+  width: 81%;
+}
+
+.exp-pmc {
+  padding-top: 15px;
+}
+
+.exp-ub {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.exp-fm {
+  padding-top: 14px;
+  padding-right: 5px;
+}
+
+.exp-p {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.exp-text {
+  width: 50%;
+  margin-left: 95px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+.skills-logo img,
+.tour {
+  width: 100%;
+}
+
+.exp-text h3 {
+  color: #4d4d4d;
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+
+.mob-exp {
+  background: #f3f3f3;
+}
+
+.exp-gmas {
+  margin-top: 16px;
+}
+
+.skills-cont h4 {
+  font-size: .8em;
+  color: #6E6E6E;
+  margin-top: 15px;
+}
+
+.skills-cont .row {
+  margin-bottom: 10px;
+}
+
+.last-skills {
+  margin-top: 20px;
+  margin-bottom: 5px !important;
+}
+
+.skills-text {
+  display: block;
+  background-color: #FFF;
+  padding: 5px 17px 6px;
+  box-shadow: 1px 1px 2px #9d9d9d;
+  color: #4d4d4d;
+  font-size: 0.9em;
+}
+
+.skills-text h4 {
+  font-size: .9em;
+  color: #9d9d9d;
+}
+
+.skills-text span {
+  color: #9d9d9d;
+  display: inline !important;
+  font-size: 1em;
+}
+
+.about-text {
+  padding-top: 14px;
+}
+
+.skills-text ul {
+  padding-left: 10px;
+}
+
+.last-about {
+  margin-bottom: 15px !important;
+}
+
+.summary {
+  padding-bottom: 15px;
+}
+
+.contact-cont span,
+.last-contact {
+  margin-bottom: 0 !important;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+.top-contact {
+  margin-top: -14px;
+}
+
+.mobile .container-form {
+  padding: 15px 30px 20px !important;
+}
+
+.warn-msg {
+  padding-left: 10px !important;
+  font-size: .9em;
+  margin-top: 11px;
+  padding-right: 10px;
+  color: #D1D0D0 !important;
+}
+
+#message p {
+  padding: 0;
+  text-align: center;
+}
+
+.tour {
+  display: block;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.tour-arrow {
+  position: absolute;
+  top: 50px;
+  right: 29px;
+}
+
+.tour-text {
+  position: absolute;
+  right: 85px;
+  top: 71px;
+  color: #fff;
+  animation-name: tour-anim;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.stop-box,
+.tour-got {
+  position: absolute;
+  right: 0;
+}
+
+.stop-box {
+  z-index: 13000;
+  width: 100px;
+  height: 100px;
+  top: 0;
+}
+
+@keyframes tour-anim {
+  from {
+    color: #fff;
+  }
+
+  to {
+    color: #9d9d9d;
+  }
+}
+
+.tour-got {
+  width: 90px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #000;
+  bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  color: #4d4d4d;
+  border-radius: 2px;
+}
+
+.mobile .intro-inner {
+  display: none;
+  margin-top: 25vh;
+}
+
+.mobile .load-dyn {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mobile .load-title {
+  color: grey;
+}
+
+.mobile .loader-logo {
+  margin-top: 18vh;
+}
+
+@media (max-width: 780px) {
+  .mobile .horiz-line, .my-detail, .my-pic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile .my-intro {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-top: -20px;
+  }
+
+  .mobile .my-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .mobile .horiz-line {
+    width: 250px;
+  }
+
+  .mobile .my-detail {
+    font-family: mons-lig;
+    font-size: 1.2em;
+    color: #fff;
+  }
+}
+
+@media (max-height: 470px) {
+  .mobile .loader-logo {
+    margin-top: 18vh;
+  }
+}

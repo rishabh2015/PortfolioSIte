@@ -1,0 +1,378 @@
+.vid-over,
+.vid-over .yt-icon {
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+	cursor: pointer
+}
+.ec-outer,
+.f-outer,
+.g-outer,
+.h-outer,
+.ki-outer,
+.msg-outer,
+.pmc-outer,
+.po-outer,
+.ym-outer,
+.z-outer {
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #f3f3f3;
+	z-index: 10000000
+}
+.vid-over {
+	position: absolute;
+	width: 600px;
+	z-index: 1;
+	top: 72px;
+	overflow: hidden
+}
+.vid-over:hover .yt-icon {
+	opacity: .9
+}
+.vid-over .yt-icon {
+	position: absolute;
+	z-index: 2;
+	top: 135px;
+	color: #c4302b;
+	width: 80px;
+	transition: all .2s ease
+}
+.flash {
+	display: none
+}
+.all-scroll::-webkit-scrollbar {
+	width: 4px
+}
+.all-scroll::-webkit-scrollbar-track {
+	border-radius: 0;
+	background-color: #000
+}
+.all-scroll::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background-color: #E42B3C
+}
+.f-inner {
+	display: block;
+	background-color: #f3f3f3;
+	width: 100%;
+	text-align: center;
+	color: #606060;
+	font-family: mons-lig
+}
+.f-inner h3,
+.fo-head {
+	font-family: geo
+}
+.f-inner h3 {
+	color: #989898;
+	font-size: 20px
+}
+.fo-head,
+.fo-head h3 {
+	color: #fff
+}
+.msg-inner {
+	text-align: left
+}
+.msg-inner a {
+	margin-left: 25px
+}
+.ec-banner,
+.f-banner,
+.g-banner,
+.h-banner,
+.ki-banner,
+.pmc-banner,
+.po-banner,
+.ym-banner,
+.z-banner {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 280px;
+	background: url(../images/cel_img.jpg) top left fixed;
+	background-size: auto 400px;
+	box-shadow: 1px 1px 2px #9d9d9d
+}
+.h-banner {
+	background: url(../images/cel_img-hitit.jpg) top left fixed;
+	background-size: auto 400px
+}
+.g-banner {
+	background: url(../images/cel-gmas.jpg) top left no-repeat fixed;
+	background-size: cover
+}
+.ym-banner {
+	background: url(../images/cel_img-ym.jpg) top left no-repeat fixed;
+	background-size: cover
+}
+.ki-banner {
+	background: url(../images/cel_img-kilig.jpg) top left no-repeat fixed;
+	background-size: cover
+}
+.pmc-banner {
+	background: url(../images/cel_img-pmc.jpg) bottom right no-repeat fixed;
+	background-size: cover
+}
+.ec-banner {
+	background: url(../images/cel-gmas.jpg) bottom right no-repeat fixed;
+	background-size: cover
+}
+.po-banner {
+	background: url(../images/cel_img-po.png) top right no-repeat fixed;
+	background-size: cover
+}
+.z-banner {
+	background: url(../images/zeo-back.jpg) top right no-repeat fixed;
+	background-size: cover
+}
+.ec-over,
+.f-over,
+.g-over,
+.h-over,
+.ki-over,
+.pmc-over,
+.po-over,
+.ym-over,
+.z-over {
+	display: block;
+	background-color: #263B4A;
+	opacity: .9;
+	width: 100%;
+	height: 280px;
+	position: absolute
+}
+.h-over {
+	background-color: #000
+}
+.g-over {
+	background-color: #288970
+}
+.ym-over {
+	background-color: #584779
+}
+.ki-over {
+	background-color: #000
+}
+.pmc-over {
+	background-color: #0B3A3E
+}
+.ec-over {
+	background-color: rgba(4, 22, 61, 1)
+}
+.z-over {
+	background-color: #2a2438
+}
+.po-over {
+	background-color: #dc2c2c
+}
+.fo-logo {
+	display: block;
+	height: 130px;
+	padding: 40px 20px 10px;
+	text-align: center
+}
+.fo-logo img {
+	height: 100%
+}
+.f-last h4,
+.fo-head h4,
+.fo-link a {
+	font-family: mons-lig
+}
+.fo-head h4 {
+	font-size: 22px
+}
+.fo-link a {
+	color: #ddd;
+	margin-top: 10px;
+	transition: all .2s ease;
+	text-decoration: none
+}
+.fo-link a:hover {
+	color: #fff
+}
+.intro {
+	padding: 20px
+}
+.color {
+	padding-bottom: 20px
+}
+#player {
+	box-shadow: 0 0 2px #9d9d9d;
+	transition: all .2s ease-in-out;
+	cursor: pointer
+}
+.color-img img,
+.f-cross,
+.f-cross i {
+	transition: all .2s ease
+}
+#player:hover {
+	box-shadow: 0 0 10px #9d9d9d
+}
+.color-img img {
+	margin: 20px 0;
+	width: 100%;
+	box-shadow: 0 0 2px #9d9d9d;
+	cursor: pointer
+}
+.color-img img:hover {
+	box-shadow: 0 0 10px #9d9d9d
+}
+.remove-shadow img,
+.remove-shadow img:hover {
+	box-shadow: 0 0 0 #fff
+}
+.f-mob-img img {
+	width: 80%
+}
+.remove-shadow img {
+	margin-bottom: -10px
+}
+.f-last {
+	padding: 20px 0 30px
+}
+.f-line {
+	border-radius: 2px;
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	float: left;
+	height: 3px;
+	background-color: #9d9d9d
+}
+.f-last h4 {
+	font-size: 16px
+}
+.f-cross {
+	display: block;
+	width: 50px;
+	height: 40px;
+	background-color: #fff;
+	box-shadow: 0 0 2px #9d9d9d;
+	position: fixed;
+	right: 20px;
+	z-index: 1;
+	cursor: pointer;
+	text-align: center
+}
+.f-cross i {
+	margin-top: 7px
+}
+.f-cross:hover {
+	height: 48px
+}
+.f-cross:hover i {
+	margin-top: 10px;
+	transform: rotate(180deg)
+}
+.ec-top,
+.f-top,
+.g-top,
+.h-top,
+.ki-top,
+.msg-top,
+.pmc-top,
+.po-top,
+.ym-top,
+.z-top {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	opacity: .9;
+	background-color: rgba(38, 59, 74, 1);
+	box-shadow: 0 0 2px #4d4d4d;
+	text-align: center;
+	cursor: pointer;
+	transition: all .4s ease;
+	z-index: 1
+}
+.h-top {
+	background: #E42B3C
+}
+.g-top {
+	background: #176A55
+}
+.ym-top {
+	background: #AA1D85
+}
+.ki-top {
+	background: #58166C
+}
+.pmc-top {
+	background: #13464D
+}
+.ec-top {
+	background: rgba(4, 22, 61, 1)
+}
+.po-top {
+	background: #dc2c2c
+}
+.z-top {
+	background: #4a2a6f
+}
+.msg-top {
+	background: #d48120
+}
+.ec-top:hover,
+.f-top:hover,
+.g-top:hover,
+.h-top:hover,
+.ki-top:hover,
+.ms-top:hover,
+.msg-top:hover,
+.pmc-top:hover,
+.po-top:hover,
+.ym-top:hover,
+.z-top:hover {
+	box-shadow: 0 0 10px #4d4d4d
+}
+.ec-top i,
+.f-top i,
+.g-top i,
+.h-top i,
+.ki-top i,
+.ms-top i,
+.msg-top i,
+.pmc-top i,
+.po-top i,
+.ym-top i,
+.z-top i {
+	color: #fff;
+	margin-top: 13px;
+	font-size: 20px
+}
+.po-margin {
+	top: 10px;
+	position: relative
+}
+.po-color h3 {
+	color: #4d4d4d;
+	margin-bottom: 20px
+}
+@media(max-width:780px){.f-mob-img img {
+	width: 100%
+}
+.all-scroll::-webkit-scrollbar {
+	width: 0
+}
+}
+@media(max-width:580px){.ec-top,.f-top,.g-top,.h-top,.ki-top,.msg-top,.pmc-top,.po-top,.ym-top,.z-top{right:10px;z-index:1}.f-cross{right:10px;width:40px;height:30px}.f-cross:hover{width:40px;height:40px}.f-cross i {
+	font-size: 22px;
+	margin-top: 5px
+}
+.fo-head h4 {
+	font-size: 18px
+}
+}

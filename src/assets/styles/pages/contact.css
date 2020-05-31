@@ -1,0 +1,351 @@
+.contact-outer,
+.recom-outer {
+	display: block;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	color: #000;
+	margin-top: 430vh;
+	background-color: #94BD4E;
+	z-index: 4;
+	transition: opacity .5s ease-in-out
+}
+.back-image-contact {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	opacity: .1;
+	right: 0;
+	background: url(../../images/coffee.jpg) right center no-repeat fixed;
+	background-size: cover
+}
+.subtitle-contact {
+	color: #AE8F43
+}
+.line-contact {
+	width: 125px;
+	background-color: #d4d4d4
+}
+.container-form {
+	padding: 40px 30px 20px
+}
+.recom-card {
+	display: block;
+	width: 80%;
+	box-shadow: 0 0 2px #252525;
+	overflow: hidden;
+	margin: 20px 0 0 40px;
+	border-radius: 2px;
+	background: #000;
+	color: #ddd;
+	font-family: mons-lig;
+	font-size: .9em;
+	cursor: pointer;
+	transition: all .2s ease
+}
+.recom-card:hover {
+	box-shadow: 0 0 8px #252525
+}
+.recom-card img {
+	width: 95%
+}
+.recom-cont {
+	margin-top: 50px
+}
+.recom-img {
+	width: 20%;
+	height: 100px;
+	overflow: hidden;
+	display: inline-block;
+	z-index: 0;
+	float: left;
+	background: #fff center center no-repeat;
+	background-size: cover;
+	transition: all .2s ease
+}
+.recom-harsh {
+	background: #fff center center no-repeat;
+	background-size: cover
+}
+.cont-harsh,
+.recom-content {
+	width: 80%;
+	display: inline-block;
+	padding: 10px;
+	text-align: left;
+	float: left
+}
+.cont-harsh span,
+.recom-content span {
+	text-align: right;
+	float: right;
+	color: #757575;
+	font-size: .9em;
+	margin-top: 20px;
+	margin-right: 10px
+}
+.recom-more {
+	padding-right: 80px;
+	padding-top: 30px
+}
+.recom-more h3 {
+	color: #4F8E11;
+	font-size: 1em;
+	font-family: geo
+}
+.recom-more h2 {
+	margin-top: 0;
+	color: #346107;
+	font-size: 1.3em;
+	font-family: mons-lig
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+	width: 70%;
+	padding-left: 10px;
+	color: #252525;
+	font-family: mons-reg;
+	transition: all .2s ease;
+	outline: 0
+}
+form input[type=text],
+form input[type=email] {
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px solid #DEDACE;
+	margin-bottom: 20px;
+	height: 40px;
+	border-radius: 2px
+}
+form textarea {
+	background: rgba(255, 255, 255, .8);
+	height: 120px;
+	border-radius: 2px;
+	padding-top: 5px;
+	border: 1px solid #DEDACE
+}
+form input:focus,
+textarea:focus {
+	border: 1px solid #EAAB18;
+	box-shadow: 0 0 15px #1D1602;
+	background-color: rgba(255, 255, 255, 1)
+}
+::-webkit-input-placeholder {
+	color: #4d4d4d;
+	transition: all .2s ease
+}
+::-moz-placeholder {
+	color: #4d4d4d;
+	transition: all .2s ease
+}
+:-ms-input-placeholder {
+	color: #4d4d4d;
+	transition: all .2s ease
+}
+input:-moz-placeholder {
+	color: #4d4d4d;
+	transition: all .2s ease
+}
+form input:focus::-webkit-input-placeholder,
+form textarea:focus::-webkit-input-placeholder {
+	color: #8C7B4F
+}
+form input:focus::-moz-input-placeholder,
+form textarea:focus::-moz-input-placeholder {
+	color: #8C7B4F
+}
+form input:focus::-ms-input-placeholder,
+form textarea:focus::-ms-input-placeholder {
+	color: #8C7B4F
+}
+form input:focus:-moz-input-placeholder,
+form textarea:focus:-moz-input-placeholder {
+	color: #8C7B4F
+}
+form input[type=submit] {
+	border: 0
+}
+form input[type=submit]:active {
+	border: 0;
+	outline: 0
+}
+.resume,
+.submit,
+.submit:hover,
+form input[type=submit]:focus {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 8px 22px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-family: geo
+}
+.resume,
+.submit,
+form input[type=submit]:focus {
+	background-color: #000;
+	color: #9d9d9d;
+	transition: all .2s ease;
+	outline: 0
+}
+.resume {
+	background-color: #AE8F43;
+	color: #32280C;
+	box-shadow: 0 0 2px #1D1602
+}
+.resume:hover,
+.submit:hover {
+	box-shadow: 0 0 10px #1D1602
+}
+.submit:hover {
+	background-color: #000;
+	color: #8C7B4F
+}
+#message,
+.conts,
+.links-contact p,
+.warn-msg {
+	font-family: mons-lig
+}
+.resume:hover {
+	background-color: #AE8F43;
+	color: #f9f9f9
+}
+.resume:hover .resume-link {
+	color: #fff
+}
+.conts,
+.links-contact p {
+	text-align: left;
+	display: block;
+	margin-left: -100px;
+	padding-top: 0;
+	color: #AE8F43;
+	padding-right: 100px
+}
+.conts {
+	padding-top: 0;
+	margin-left: -110px
+}
+.links-contact i {
+	margin-right: 10px
+}
+#message {
+	color: #fff
+}
+#message p {
+	color: #A6A6A6
+}
+.con-email:hover i {
+	color: #D91818
+}
+.con-fb:hover i {
+	color: #426BC1
+}
+.con-al:hover i {
+	color: #f9f9f9
+}
+.con-git:hover i {
+	color: #8D3EE2
+}
+.con-in:hover i {
+	color: #1D65D3
+}
+.con-be:hover i {
+	color: #DCDCDC
+}
+.warn-msg {
+	display: inline-block;
+	color: #fff;
+	padding-left: 20px
+}
+.contact-outer {
+	display: block;
+	width: 100%;
+	position: absolute;
+	color: #000;
+	z-index: 6;
+	margin-top: 540vh;
+	background-color: #0e1415
+}
+.recom-title {
+	color: #252525
+}
+.line-recom {
+	margin-bottom: 7px;
+	background: #252525;
+	width: 280px
+}
+.subtitle-recom {
+	color: #346107
+}
+@media(min-width:1600px){.recom-cont{margin-top:9%}.container-form{margin-top:6%}}@media(max-width:990px){.conts,.recom-cont{margin-top:10px}.recom-more{padding-top:10px 80px 0 0
+}
+.links-contact p {
+	display: none;
+	margin-left: 0;
+	padding-top: 30px;
+	border: 1px solid red
+}
+.links-contact {
+	margin-left: 0
+}
+.conts {
+	margin-left: -10px
+}
+form {
+	opacity: 1;
+	transition: all .5s ease
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+	width: 80%
+}
+form input[type=submit] {
+	width: 100px
+}
+.recom-more {
+	margin-left: 40px;
+	padding: 10px 40px 0 0
+}
+.recom-more h3 {
+	color: #4F8E11;
+	font-size: .8em;
+	font-family: geo
+}
+.recom-more h2 {
+	margin-top: 0;
+	color: #346107;
+	font-size: 1em;
+	font-family: mons-lig
+}
+}
+@media(max-width:640px){.cont-harsh span {
+	margin-top:10px
+}
+.recom-content span {
+	margin-top:5px
+}
+}
+@media(max-width:620px){.recom-card{font-size:.8em}form input[type=text],
+form input[type=email],
+form textarea {
+	width:100%
+}
+.recom-content span {
+	margin-top:10px
+}
+}
+@media(max-width:480px){.cont-harsh span {
+	margin-top:5px
+}
+.recom-card {
+	font-size:.8em
+}
+.recom-content span {
+	margin-top:17px
+}
+}

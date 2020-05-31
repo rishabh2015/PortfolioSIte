@@ -1,0 +1,372 @@
+.gmas-card,
+.gmas-exp {
+  cursor: pointer;
+}
+
+.experience-outer {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  color: #000;
+  margin-top: 210vh;
+  background-color: #FF9800;
+  z-index: 3;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.vis-show {
+  visibility: visible !important;
+}
+
+.vis-hidden {
+  visibility: hidden !important;
+}
+
+.anim-fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.anim-fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.anim-delay-4 {
+  animation-delay: 0.4s;
+}
+
+.anim-slideInLeft {
+  animation-name: slideInLeft;
+}
+
+.anim-delay-8 {
+  animation-delay: 0.8s;
+}
+
+.anim-fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.anim-delay-6 {
+  animation-delay: 0.6s;
+}
+
+.gmas-card,
+.gmas-date,
+.time-circle {
+  transition: all 0.2s ease;
+}
+
+.line-exp {
+  width: 190px;
+  background: #ffd89c;
+}
+
+.subtitle-exp {
+  color: #ffd89c;
+}
+
+.subtitle-date {
+  color: #ffd89c;
+  text-align: right;
+}
+
+.arrow-down:hover i,
+.arrow-up:hover i,
+.gmas-exp:hover .gmas-date {
+  color: #fff;
+}
+
+.gmas-date {
+  padding: 14px 5px 5px;
+  font-family: geo;
+}
+
+.exp-cont,
+.exp-last,
+.gmas-card-content {
+  font-family: mons-lig;
+}
+
+.gmas-card {
+  height: 70px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #6D3D00;
+  background-color: rgba(0, 0, 0, 1);
+  overflow: hidden;
+}
+
+.gmas-exp:hover .gmas-card {
+  background-color: rgba(13, 93, 73, 0.9);
+}
+
+.gmas-exp:hover .founch-card {
+  background-color: rgba(5, 71, 92, 0.9);
+}
+
+.gmas-exp:hover .ub-card {
+  background-color: rgba(221, 16, 16, 0.9);
+}
+
+.gmas-exp:hover .fm-card {
+  background-color: rgba(79, 79, 79, 0.9);
+}
+
+.gmas-exp:hover .pmc-card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gmas-exp:hover .pinnacle-card {
+  background-color: rgba(23, 102, 52, 0.9);
+}
+
+.gmas-exp:hover .time-circle {
+  border-radius: 50%;
+  background-color: #fff;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.time-circle,
+.timeline {
+  background-color: #ffd89c;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.timeline {
+  position: relative;
+  width: 2px;
+  height: 80px;
+}
+
+.time-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.time-circle-small {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fb8c00;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.left-exp {
+  display: block;
+  height: 235px;
+  overflow: hidden;
+  padding-bottom: 40px;
+  margin-top: 45px;
+}
+
+.left-exp-in {
+  margin-top: 0;
+  display: block;
+  height: 510px;
+}
+
+.arrow-down,
+.arrow-up {
+  display: block;
+  width: 60px;
+  height: 30px;
+  border-radius: 60px 60px 0 0;
+  background-color: rgba(255, 216, 156, 0.5);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.2s ease-in-out;
+}
+
+.arrow-up {
+  top: 0;
+}
+
+.fa-angle-up:before {
+  font-size: 27px;
+}
+
+.fa-angle-down:before {
+  font-size: 27px;
+}
+
+.arrow-down:hover,
+.arrow-up:hover {
+  background-color: rgba(255, 216, 156, 1);
+}
+
+.arrow-down i,
+.arrow-up i {
+  transition: all .2s ease;
+  color: #fb8c00;
+  position: absolute;
+  margin-left: 21px;
+  margin-top: 2px;
+}
+
+.arrow-down {
+  bottom: 0;
+  border-radius: 0 0 60px 60px;
+}
+
+.gmas-card-img img {
+  width: 95%;
+}
+
+.founch-card-img img {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.pinnacle-card-img img {
+  width: 80%;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.pmc-card-img img {
+  width: 110%;
+  margin-left: -5px;
+}
+
+.ub-card-img img {
+  width: 80%;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+.gmas-card-img {
+  border-right: 1px solid #9d9d9d;
+  height: 53px;
+  margin-top: 10px;
+  width: 100px;
+  float: left;
+  padding: 7px;
+}
+
+.card-cover,
+.me-car {
+  position: absolute;
+  width: 100%;
+  display: block;
+  top: 0;
+}
+
+.card-cover {
+  height: 80px;
+  background: url(../../images/gmas-logo-small.png) right center no-repeat;
+  background-size: 50%;
+  opacity: .1;
+  left: 0;
+}
+
+.founch-cover {
+  background: url(../../images/logo-f.png) right center no-repeat;
+  background-size: 40%;
+}
+
+.ub-cover {
+  background: url(../../images/ub-logo.png) right center no-repeat;
+  background-size: 50%;
+}
+
+.fm-cover {
+  background: url(../../images/fm-logo.png) right center no-repeat;
+  background-size: 40%;
+}
+
+.pmc-cover {
+  background: url(../../images/pmc-logo-small.png) right center no-repeat;
+  background-size: 50%;
+}
+
+.pinnacle-cover {
+  background: url(../../images/pinnacle-logo.png) right center no-repeat;
+  background-size: 50%;
+}
+
+.gmas-card-content {
+  color: #fff;
+  padding: 15px 0 20px 20px;
+}
+
+.gmas-card-content span {
+  color: #9d9d9d;
+}
+
+.left-exp-outer {
+  height: 320px;
+  margin-top: 20px;
+}
+
+.exp-last {
+  text-align: center;
+  color: #6C4405;
+  margin-top: 35px;
+}
+
+.exp-last-mod {
+  margin-top: 25px;
+}
+
+.exp-cont {
+  padding-left: 100px;
+  font-size: 2.2em;
+  color: #ffd89c;
+  padding-top: 120px;
+  display: block;
+}
+
+.me-car {
+  height: 100vh;
+}
+
+.me-car img {
+  height: 100%;
+  opacity: 0.1;
+}
+
+@media (min-width: 1600px) {
+  .left-exp-outer {
+    margin-top: 7%;
+  }
+
+  .exp-cont {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 720px) {
+  .exp-cont {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .left-exp-outer {
+    margin-top: 20px;
+  }
+
+  .project-title {
+    margin-top: 50px;
+  }
+}
