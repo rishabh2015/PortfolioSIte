@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf02645cb0764683288b8910f81333c3",
+    "revision": "123c525e1b121929202bbb79278a0ff6",
     "url": "/index.html"
   },
   {
-    "revision": "82e285d5751736f6f5ae",
-    "url": "/static/css/main.a081fc0f.chunk.css"
+    "revision": "9de67bda0f9b1bfbd795",
+    "url": "/static/css/main.44d694c9.chunk.css"
   },
   {
-    "revision": "5d24b589af89f66a87d9",
-    "url": "/static/js/2.cccd56a2.chunk.js"
+    "revision": "e02fefb8d456d9f29472",
+    "url": "/static/js/2.00ccf3b5.chunk.js"
   },
   {
-    "revision": "82e285d5751736f6f5ae",
-    "url": "/static/js/main.4b588381.chunk.js"
+    "revision": "9de67bda0f9b1bfbd795",
+    "url": "/static/js/main.29d90e87.chunk.js"
   },
   {
     "revision": "2252411b3c7fcbed6008",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27e50ffd6a14cbc8221c9dbd3b5208dc",
     "url": "/static/media/Montserrat-Regular.27e50ffd.otf"
+  },
+  {
+    "revision": "6b07c1259a8675a299d253b7c2090232",
+    "url": "/static/media/Paytm_Logo.6b07c125.png"
   },
   {
     "revision": "40fa325f73084e7af10b7c746d553c56",
