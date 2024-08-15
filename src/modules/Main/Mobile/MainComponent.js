@@ -254,7 +254,7 @@ export default class MainMobileComponent extends Component {
             <img alt="" src={portfolioImage}/></div>
 					<div className="my-intro wow fadeInUp" data-wow-delay="0.1s" >
 						<br/> Rishabh Jain
-						<br/>Full Stack Developer</div>
+						<br/>Tech Product Enthusiast</div>
 					<div className="horiz-line wow fadeInLeftBig" data-wow-delay="-0.4s" ></div>
 					<div className="my-detail wow fadeInDown" data-wow-delay="0.2s" >Think Design Develop!
 					</div>

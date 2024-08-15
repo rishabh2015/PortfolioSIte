@@ -7,6 +7,7 @@ import fm_logo from "../../../assets/images/fm-logo.png";
 import pinnacle_logo from "../../../assets/images/pinnacle-logo.png";
 import im_logo from "../../../assets/images/im-logo.png";
 import yatra from "../../../assets/images/yatra.jpg";
+import paytm from "../../../assets/images/Paytm_Logo.png";
 import naukriLogo from "../../../assets/images/naukriLogo.jpg";
 import "../../../assets/styles/pages/experiences.css";
 import toatImage from "../../../assets/images/toatImage.jpg";
@@ -57,7 +58,7 @@ export default class ExperienceComponent extends React.Component {
               <div className="left-exp-in">
               <div className="gmas-exp row">
                   <div className="gmas-date subtitle-date col-xs-3 col-md-3">
-                    Dec-2019 - Present
+                    Dec-2018 - Dec -2023
                     <br /> 
                   </div>
                   <div className="dot-line col-xs-1">
@@ -72,17 +73,17 @@ export default class ExperienceComponent extends React.Component {
                       <div className="gmas-card-img pinnacle-card-img mt-15">
                         <img alt="" src={naukriLogo}  className="wt-96"/>
                       </div>
-                      <div className="gmas-card-content col-xs-7">
+                      <div className="gmas-card-content col-xs-9">
                         Naukri
                         <br />
-                        <span>Senior Software Engineer </span>
+                        <span>Lead Engineer/Tech Lead/Engineering Manager </span>
                       </div>
                     </div>
                   </div>
                 </div>
               <div className="gmas-exp row">
                   <div className="gmas-date subtitle-date col-xs-3 col-md-3">
-                    Nov-2018 - Dec-2019
+                    Nov-2017 - Dec-2018
                     <br /> 
                   </div>
                   <div className="dot-line col-xs-1">
@@ -105,9 +106,34 @@ export default class ExperienceComponent extends React.Component {
                     </div>
                   </div>
                 </div>
+                <div className="gmas-exp row">
+                  <div className="gmas-date subtitle-date col-xs-3 col-md-3">
+                    Nov-2016 - Dec-2017
+                    <br /> 
+                  </div>
+                  <div className="dot-line col-xs-1">
+                    <div className="time-circle">
+                      <div className="time-circle-small"> </div>
+                    </div>
+                    <div className="timeline"></div>
+                  </div>
+                  <div className="gmas-card pinnacle-card col-xs-7 col-md-8">
+                    <div className="card-cover pinnacle-cover"></div>
+                    <div className="row">
+                      <div className="gmas-card-img pinnacle-card-img mt-15">
+                        <img alt="" src={paytm}  className="wt-96"/>
+                      </div>
+                      <div className="gmas-card-content col-xs-7">
+                        Paytm
+                        <br />
+                        <span>Senior Software Engineer </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <div className="gmas-exp row">
                   <div className="gmas-date subtitle-date col-xs-3 col-md-3">
-                    Jun 2017 - Oct-2018
+                    Jun 2015 - Oct-2016
                     <br /> 
                   </div>
                   <div className="dot-line col-xs-1">

@@ -175,7 +175,7 @@ export default class MainComponent extends Component {
                     Hi !
                     <br /> I'm Rishabh Jain
                     <br />
-                    Full Stack Developer
+                     Tech Product Enthusiast
                   </h2>
                 </div>
                 <div
