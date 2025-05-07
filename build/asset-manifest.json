@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.44d694c9.chunk.css",
-    "main.js": "/static/js/main.29d90e87.chunk.js",
-    "main.js.map": "/static/js/main.29d90e87.chunk.js.map",
+    "main.css": "/static/css/main.a081fc0f.chunk.css",
+    "main.js": "/static/js/main.5ba1bed3.chunk.js",
+    "main.js.map": "/static/js/main.5ba1bed3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a23cbf58.js",
     "runtime-main.js.map": "/static/js/runtime-main.a23cbf58.js.map",
-    "static/js/2.00ccf3b5.chunk.js": "/static/js/2.00ccf3b5.chunk.js",
-    "static/js/2.00ccf3b5.chunk.js.map": "/static/js/2.00ccf3b5.chunk.js.map",
+    "static/js/2.036bf279.chunk.js": "/static/js/2.036bf279.chunk.js",
+    "static/js/2.036bf279.chunk.js.map": "/static/js/2.036bf279.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.74e9207da126a82d2a9a4c1102b2c41c.js": "/precache-manifest.74e9207da126a82d2a9a4c1102b2c41c.js",
+    "precache-manifest.f49a35c860619af7acc7e776ad072056.js": "/precache-manifest.f49a35c860619af7acc7e776ad072056.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.44d694c9.chunk.css.map": "/static/css/main.44d694c9.chunk.css.map",
+    "static/css/main.a081fc0f.chunk.css.map": "/static/css/main.a081fc0f.chunk.css.map",
     "static/media/DsAlgo-skill.jpg": "/static/media/DsAlgo-skill.096339a2.jpg",
     "static/media/main-mob.css": "/static/media/logo-z.b6bdd46c.png",
     "static/media/Paytm_Logo.png": "/static/media/Paytm_Logo.6b07c125.png",
@@ -23,6 +23,7 @@
     "static/media/naukri-small.jfif": "/static/media/naukri-small.1f4fdd79.jfif",
     "static/media/naukriLogo.jpg": "/static/media/naukriLogo.f429cfce.jpg",
     "static/media/skills.css": "/static/media/redux-skill.82e31c5d.png",
+    "static/media/pwLogo.webp": "/static/media/pwLogo.277ac8f2.webp",
     "static/media/testSvgreverse.svg": "/static/media/testSvgreverse.98f1ca8b.svg",
     "static/media/testVector2.svg": "/static/media/testVector2.5ff90501.svg",
     "static/media/toatImage.jpg": "/static/media/toatImage.40ece16f.jpg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a23cbf58.js",
-    "static/js/2.00ccf3b5.chunk.js",
-    "static/css/main.44d694c9.chunk.css",
-    "static/js/main.29d90e87.chunk.js"
+    "static/js/2.036bf279.chunk.js",
+    "static/css/main.a081fc0f.chunk.css",
+    "static/js/main.5ba1bed3.chunk.js"
   ]
 }

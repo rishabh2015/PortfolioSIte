@@ -9,6 +9,8 @@ import im_logo from "../../../assets/images/im-logo.png";
 import yatra from "../../../assets/images/yatra.jpg";
 import paytm from "../../../assets/images/Paytm_Logo.png";
 import naukriLogo from "../../../assets/images/naukriLogo.jpg";
+import pwLogo from "../../../assets/images/pwLogo.webp";
+import microsoftLogo from "../../../assets/images/MicrosoftLogo.png";
 import "../../../assets/styles/pages/experiences.css";
 import toatImage from "../../../assets/images/toatImage.jpg";
 
@@ -56,6 +58,56 @@ export default class ExperienceComponent extends React.Component {
             </div>
             <div className="left-exp col-xs-12">
               <div className="left-exp-in">
+              <div className="gmas-exp row">
+                  <div className="gmas-date subtitle-date col-xs-3 col-md-3">
+                   May - 2025 -  Present
+                    <br /> 
+                  </div>
+                  <div className="dot-line col-xs-1">
+                    <div className="time-circle">
+                      <div className="time-circle-small"> </div>
+                    </div>
+                    <div className="timeline"></div>
+                  </div>
+                  <div className="gmas-card pinnacle-card col-xs-7 col-md-8">
+                    <div className="card-cover pinnacle-cover"></div>
+                    <div className="row">
+                      <div className="gmas-card-img pinnacle-card-img mt-15">
+                        <img alt="" src={microsoftLogo}  className="wt-96"/>
+                      </div>
+                      <div className="gmas-card-content col-xs-9">
+                        Microsoft
+                        <br />
+                        <span>Senior Software Engineer L64 </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div className="gmas-exp row">
+                  <div className="gmas-date subtitle-date col-xs-3 col-md-3">
+                    Dec -2023 - Apr - 2025
+                    <br /> 
+                  </div>
+                  <div className="dot-line col-xs-1">
+                    <div className="time-circle">
+                      <div className="time-circle-small"> </div>
+                    </div>
+                    <div className="timeline"></div>
+                  </div>
+                  <div className="gmas-card pinnacle-card col-xs-7 col-md-8">
+                    <div className="card-cover pinnacle-cover"></div>
+                    <div className="row">
+                      <div className="gmas-card-img pinnacle-card-img mt-15">
+                        <img alt="" src={pwLogo}  className="wt-96"/>
+                      </div>
+                      <div className="gmas-card-content col-xs-9">
+                        Physicswallah
+                        <br />
+                        <span>Engineering Manager </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               <div className="gmas-exp row">
                   <div className="gmas-date subtitle-date col-xs-3 col-md-3">
                     Dec-2018 - Dec -2023
