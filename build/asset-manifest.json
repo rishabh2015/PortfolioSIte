@@ -5,10 +5,10 @@
     "main.js.map": "/static/js/main.5ba1bed3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a23cbf58.js",
     "runtime-main.js.map": "/static/js/runtime-main.a23cbf58.js.map",
-    "static/js/2.036bf279.chunk.js": "/static/js/2.036bf279.chunk.js",
-    "static/js/2.036bf279.chunk.js.map": "/static/js/2.036bf279.chunk.js.map",
+    "static/js/2.d35dcce0.chunk.js": "/static/js/2.d35dcce0.chunk.js",
+    "static/js/2.d35dcce0.chunk.js.map": "/static/js/2.d35dcce0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f49a35c860619af7acc7e776ad072056.js": "/precache-manifest.f49a35c860619af7acc7e776ad072056.js",
+    "precache-manifest.c6277dba606d9c40d41055bd5880d714.js": "/precache-manifest.c6277dba606d9c40d41055bd5880d714.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a081fc0f.chunk.css.map": "/static/css/main.a081fc0f.chunk.css.map",
     "static/media/DsAlgo-skill.jpg": "/static/media/DsAlgo-skill.096339a2.jpg",
@@ -32,7 +32,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a23cbf58.js",
-    "static/js/2.036bf279.chunk.js",
+    "static/js/2.d35dcce0.chunk.js",
     "static/css/main.a081fc0f.chunk.css",
     "static/js/main.5ba1bed3.chunk.js"
   ]
